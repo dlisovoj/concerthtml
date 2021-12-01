@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       * {
+        box-sizing: border-box;
+        }
+        body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+    #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.content {
+  position: relative;
+  bottom: 1;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+    </style>
+    <title>XXXTentacion</title>
+</head>
+<body style="text-align: center;">
+    <video autoplay muted loop id="myVideo">
+        <source src="backround.mp4" type="video/mp4">
+      </video>
+    <div class="content">
+    <h1>XXXTentacion Concert info</h1>
+    <h3>Registration form</h3>
+    <form action="#" method="get"><br>
+        <label for="name"></label>
+        <input id="name" type="text" name="firstname" placeholder="First Name" required><br><br>
+        <label for="name"></label>
+        <input id="name" type="text" name="lastname" placeholder="Last Name" required><br><br>
+        <label for="email"></label>
+        <input id="email" type="email" name="email" placeholder="Your E-Mail address" required><br>
+        <p><b>Are you vaccinated?</b></p>
+        <label for="yes">Yes</label>
+        <input id="yes" type="radio" name="vaccinated" value="yes">
+        <label for="no">No</label>
+        <input id="no" type="radio" name="vaccinated" value="no"><br><br>
+        <button>Submit</button>
+    </form>
+    <h3>Concert Location</h3>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.4768803311517!2d-80.19097038519735!3d25.787836913812537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6a718af88df%3A0x1d3918887638939!2sKnight%20Concert%20Hall!5e0!3m2!1slt!2slt!4v1638394648361!5m2!1slt!2slt" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+<h3>Couple of videos for reference</h3><br>
+<video width="400" src="video1.mp4" type="video/mp4" controls></video>
+<video width="400" src="video2.mp4" type="video/mp4" controls></video>
+<video width="400" src="video3.mp4" type="video/mp4" controls></video><br>
+<h3>Songs that will be performed</h3>
+<p><i>XXXTentacion - HOPE</i></p>
+<audio src="audiohope.mp3"type="audio/mp3" controls></audio>
+<p><i>XXXTentacion - MOONLIGHT</i></p>
+<audio src="audiomoonlight.mp3"type="audio/mp3" controls></audio>
+<p><i>XXXTentacion - SAD!</i></p>
+<audio src="audiosad.mp3"type="audio/mp3" controls></audio><br>
+<p><b>The concert will be taking place at 4PM EST</b></p>
+</div>
+</body>
+</html>
